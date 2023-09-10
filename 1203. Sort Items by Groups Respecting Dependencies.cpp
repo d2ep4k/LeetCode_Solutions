@@ -1,4 +1,5 @@
-// https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+// problem-> https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+// sol-> https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/solutions/3940307/cpp-topological-sorting-with-detailed-approach-beats-100-99/
 class Solution {
 public:
     void dfsOnGroup(int m,vector<vector<int>>&groupAdj,vector<vector<int>>&nodeAdj,vector<vector<int>>&groupMember,
