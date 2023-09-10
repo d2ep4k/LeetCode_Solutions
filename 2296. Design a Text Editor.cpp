@@ -11,6 +11,7 @@ Array x 2
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Approach*
+
 Using doubly linked list to store text and traverse, the cursor position is stored in a pointer and is consequently referred to during updating, deleting, and traversing.
 
 Add : Insert node(s) from cursor onwards (cursor increments leftwards).
